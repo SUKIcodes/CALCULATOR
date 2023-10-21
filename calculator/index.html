@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CALCULATOR BY KING</title>
+    <link
+      rel="shortcut icon"
+      href="https://cdn2.iconfinder.com/data/icons/ios7-inspired-mac-icon-set/512/Calculator_512.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>THE BEST CALCULATOR</h1>
+    <div class="container">
+      <input id="display" readonly />
+      <div class="button_container">
+        <button
+          class="button"
+          onclick="
+            currentValue = '';
+            document.getElementById('display').value = currentValue;
+
+            "
+        >
+          C
+        </button>
+        <button
+          class="button"
+          onclick=" currentValue = currentValue + '1';
+            document.getElementById('display').value = currentValue ;"
+        >
+          1
+        </button>
+        <button
+          class="button"
+          onclick="currentValue = currentValue + '2';
+            document.getElementById('display').value = currentValue ;
+        "
+        >
+          2
+        </button>
+        <button
+          class="button"
+          onclick="currentValue = currentValue + '3';
+            document.getElementById('display').value = currentValue ;"
+        >
+          3
+        </button>
+        <button
+          class="button"
+          onclick="currentValue = currentValue + '4';
+            document.getElementById('display').value = currentValue ;"
+        >
+          4
+        </button>
+        <button
+          class="button"
+          onclick="currentValue = currentValue + '5';
+            document.getElementById('display').value = currentValue ;"
+        >
+          5
+        </button>
+        <button
+          class="button"
+          onclick="currentValue = currentValue + '6';
+            document.getElementById('display').value = currentValue ;"
+        >
+          6
+        </button>
+        <button
+          class="button"
+          onclick="currentValue = currentValue + '7';
+            document.getElementById('display').value = currentValue ;"
+        >
+          7
+        </button>
+        <button
+          class="button"
+          onclick="currentValue = currentValue + '8';
+            document.getElementById('display').value = currentValue ;"
+        >
+          8
+        </button>
+        <button
+          class="button"
+          onclick="currentValue = currentValue + '9';
+            document.getElementById('display').value = currentValue ;"
+        >
+          9
+        </button>
+        <button
+          class="button"
+          onclick="currentValue = currentValue + '0';
+            document.getElementById('display').value = currentValue ;"
+        >
+          0
+        </button>
+        <button
+          class="button"
+          onclick="currentValue = currentValue + '+';
+            document.getElementById('display').value = currentValue ;"
+        >
+          +
+        </button>
+        <button
+          class="button"
+          onclick="currentValue = currentValue + '-';
+            document.getElementById('display').value = currentValue ;"
+        >
+          -
+        </button>
+        <button
+          class="button"
+          onclick="currentValue = currentValue + '*';
+            document.getElementById('display').value = currentValue ;"
+        >
+          *
+        </button>
+        <button
+          class="button"
+          onclick="currentValue = currentValue + '/';
+            document.getElementById('display').value = currentValue ;"
+        >
+          /
+        </button>
+        <button
+          class="button"
+          onclick="currentValue = currentValue + '.';
+            document.getElementById('display').value = currentValue ;"
+        >
+          .
+        </button>
+        <button
+          class="button"
+          onclick="currentValue = eval(currentValue);
+            document.getElementById('display').value = currentValue ;"
+        >
+          =
+        </button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

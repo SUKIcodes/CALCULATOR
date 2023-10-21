@@ -1,0 +1,34 @@
+body {
+  text-align: center;
+}
+
+.container {
+  width: 30%;
+  border: 3px solid black;
+  margin: 10px auto;
+  background-color: purple;
+  border-radius: 10px;
+}
+
+input {
+  padding: 10px;
+  width: 80%;
+  margin: 10px;
+  font-size: 25px;
+}
+
+.button_container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 35%;
+  margin: 10px auto;
+}
+
+.button {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  font-weight: bolder;
+  background-color: goldenrod;
+}
